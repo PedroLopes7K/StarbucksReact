@@ -1,5 +1,6 @@
 import React from 'react'
 import Botao from './Botao'
+import './Sobre.css'
 
 export default function Sobre() {
   return (

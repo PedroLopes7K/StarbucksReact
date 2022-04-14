@@ -1,5 +1,5 @@
 import React from 'react'
-// import '../App.css'
+import './Home.css'
 import Cafe from '../assets/img1.png'
 import Sobre from './Sobre'
 

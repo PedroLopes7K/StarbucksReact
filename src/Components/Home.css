@@ -1,0 +1,14 @@
+section.sobre {
+  height:  90%;
+  position: relative;
+  /* background-color: rgb(234, 8, 0); */
+}
+.extras {
+  position: absolute;
+  bottom: -40%;
+  right: -26%;
+  width: 900px;
+  height: 900px;
+  border-radius: 50%;
+  background-color: #017143;
+}
