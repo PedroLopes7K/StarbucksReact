@@ -2,15 +2,21 @@
   font-size: 45px;
   font-family: 'Times New Roman', Times, serif;
 }
-.starbucks {
+.green {
   color:#017143 ;
+}
+.pink{
+color: rgb(231, 165, 174);
+}
+.violete {
+  color: #c2479d;
 }
 .paragrafo {
   width: 500px;
   font-size: large;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.botao {
+/* .botao {
   margin: 10px 0;
   width: 200px;
   height: 50px;
@@ -27,4 +33,4 @@
 .botao:hover {
 background-color: rgb(243, 242, 242);
 color: #017143;
-}
+} */

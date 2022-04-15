@@ -1,14 +1,15 @@
-import React from 'react'
+// import React, { useState } from 'react'
 import Botao from './Botao'
 import './Sobre.css'
 
-export default function Sobre() {
+export default function Sobre({ classe }) {
+  // const [id, setId] = useState('green')
   return (
     <div className="center">
       <div className="texto-sobre">
         <h1 className="apresentacao">
           It`s not just Coffee
-          <br /> It`s <span className="starbucks"> Starbucks</span>
+          <br /> It`s <span className={classe}>Starbucks</span>
         </h1>
         <p className="paragrafo">
           Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -19,7 +20,7 @@ export default function Sobre() {
           remaining essentially unchanged. It was popularised in the 1960s with
           the release of Letraset sheets containing
         </p>
-        <Botao />
+        <Botao classe={classe} />
       </div>
     </div>
   )

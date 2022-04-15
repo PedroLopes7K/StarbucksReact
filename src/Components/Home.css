@@ -3,12 +3,21 @@ section.sobre {
   position: relative;
   /* background-color: rgb(234, 8, 0); */
 }
-.extras {
+.circulo {
   position: absolute;
   bottom: -40%;
   right: -26%;
   width: 900px;
   height: 900px;
   border-radius: 50%;
+}
+#green {
   background-color: #017143;
+
+}
+#violete{
+  background-color: #c2479d;
+}
+#pink {
+  background-color: rgb(231, 165, 174);
 }
