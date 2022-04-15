@@ -11,27 +11,31 @@ import Logo3 from '../assets/Logo3.png'
 
 import './Copos.css'
 
-export default function Copos({ setarIMG, setarCor, setarLogo }) {
-  function trocaAtributos(imagem, color, logo) {
+export default function Copos({ setarIMG, setarCor, setarLogo, setarId }) {
+  function trocaAtributos(imagem, color, logo, hover) {
     setarIMG(imagem)
     setarCor(color)
     setarLogo(logo)
+    setarId(hover)
   }
   return (
     <ul className="Copos">
       <li>
         <img
           src={Copo1}
-          onClick={() => trocaAtributos(Cafe1, 'green', Logo1)}
+          onClick={() => trocaAtributos(Cafe1, 'green', Logo1, 'verde')}
         />
       </li>
       <li>
-        <img src={Copo2} onClick={() => trocaAtributos(Cafe2, 'pink', Logo2)} />
+        <img
+          src={Copo2}
+          onClick={() => trocaAtributos(Cafe2, 'pink', Logo2, 'rosa')}
+        />
       </li>
       <li>
         <img
           src={Copo3}
-          onClick={() => trocaAtributos(Cafe3, 'violete', Logo3)}
+          onClick={() => trocaAtributos(Cafe3, 'violete', Logo3, 'violeta')}
         />
       </li>
     </ul>

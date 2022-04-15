@@ -6,7 +6,7 @@ import RedesSociais from './RedesSociais'
 import Copos from './Copos'
 import { useState } from 'react'
 
-export default function Home({ setarLogo }) {
+export default function Home({ setarLogo, setId }) {
   const [imagem, setImagem] = useState(Cafe)
   const [classe, setClasse] = useState('green')
 
@@ -17,8 +17,12 @@ export default function Home({ setarLogo }) {
         <RedesSociais />
       </div>
       <Sobre classe={classe} />
-      {/* <button onClick={clicou}>APERTE AQUI!!!!</button> */}
-      <Copos setarIMG={setImagem} setarCor={setClasse} setarLogo={setarLogo} />
+      <Copos
+        setarIMG={setImagem}
+        setarCor={setClasse}
+        setarLogo={setarLogo}
+        setarId={setId}
+      />
     </section>
   )
 }
