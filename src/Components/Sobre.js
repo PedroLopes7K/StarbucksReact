@@ -1,11 +1,12 @@
 // import React, { useState } from 'react'
 import Botao from './Botao'
 import './Sobre.css'
+import { Center } from './StyledHeader'
 
 export default function Sobre({ classe }) {
   // const [id, setId] = useState('green')
   return (
-    <div className="center">
+    <Center className="center">
       <div className="texto-sobre">
         <h1 className="apresentacao">
           It`s not just Coffee
@@ -22,6 +23,6 @@ export default function Sobre({ classe }) {
         </p>
         <Botao classe={classe} />
       </div>
-    </div>
+    </Center>
   )
 }

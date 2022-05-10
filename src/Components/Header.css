@@ -1,9 +1,8 @@
 
-header{
+/* header{
   height: 10%;
   padding:  20px 0;
-  /* background-color: rgb(186, 246, 212) ; */
-}
+} */
 /* .center{
   display: flex;
   flex-wrap: wrap;
@@ -11,17 +10,17 @@ header{
   margin:  0 auto;
   padding: 0 2%;
 } */
-.Logo{
+/* .logo{
   width: 40%;
-}
+} */
 
 
-.menu {
+/* .menu {
   padding-top: 20px;
   width: 50%;
   text-align: right;
-}
-
+} */
+/* 
 .menu a{
   color: black;
   text-decoration: none;
@@ -30,7 +29,7 @@ header{
   margin-right: 15px;
   transition: 0.5s;
   cursor: pointer;
-}
+} */
 #verde a:hover {
   color:  #017143;
 }

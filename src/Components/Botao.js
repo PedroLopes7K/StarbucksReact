@@ -1,11 +1,10 @@
 import React from 'react'
 import './Botao.css'
+import { Button } from './StyledComponentsButton'
 export default function Botao({ classe }) {
   return (
-    <div>
-      <button className={classe} id="botao">
-        Learn More
-      </button>
-    </div>
+    <Button className={classe} id="botao">
+      Learn More
+    </Button>
   )
 }

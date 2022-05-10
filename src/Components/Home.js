@@ -5,13 +5,14 @@ import Sobre from './Sobre'
 import RedesSociais from './RedesSociais'
 import Copos from './Copos'
 import { useState } from 'react'
+import { About } from './StyledComponentsHome'
 
 export default function Home({ setarLogo, setId }) {
   const [imagem, setImagem] = useState(Cafe)
   const [classe, setClasse] = useState('green')
 
   return (
-    <section className="sobre">
+    <About className="sobre">
       <div className="circulo" id={classe}>
         <img src={imagem} alt="Café" />
         <RedesSociais />
@@ -23,6 +24,6 @@ export default function Home({ setarLogo, setId }) {
         setarLogo={setarLogo}
         setarId={setId}
       />
-    </section>
+    </About>
   )
 }

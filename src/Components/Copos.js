@@ -24,18 +24,21 @@ export default function Copos({ setarIMG, setarCor, setarLogo, setarId }) {
         <img
           src={Copo1}
           onClick={() => trocaAtributos(Cafe1, 'green', Logo1, 'verde')}
+          alt="Copo Verde"
         />
       </li>
       <li>
         <img
           src={Copo2}
           onClick={() => trocaAtributos(Cafe2, 'pink', Logo2, 'rosa')}
+          alt="Copo Rosa"
         />
       </li>
       <li>
         <img
           src={Copo3}
           onClick={() => trocaAtributos(Cafe3, 'violete', Logo3, 'violeta')}
+          alt="Copo Violeta"
         />
       </li>
     </ul>
