@@ -1,6 +1,6 @@
 import React from 'react'
 // import Logo from '../assets/logo.png'
-import './Header.css'
+// import './Header.css'
 import { Topo, Center, Menu } from './StyledHeader'
 
 export default function Header({ logo, id }) {

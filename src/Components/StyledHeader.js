@@ -28,4 +28,10 @@ export const Menu = styled.div`
     transition: 0.5s;
     cursor: pointer;
   }
+  ${props =>
+    props.id === 'verde'
+      ? '& a:hover {color: #017143}'
+      : props.id === 'rosa'
+      ? '& a:hover {color: rgb(231, 165, 174)}'
+      : '& a:hover {color: #c2479d}'}
 `
